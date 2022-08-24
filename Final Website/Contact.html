@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/d812ffa7e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="Adopt Now.html">ADOPT NOW</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Contact Us</h1>
+</section>
+
+<!-----------contact us----------->
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14124.97216822118!2d85.3239595!3d27.7406487!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb192c5a28c93f%3A0x82c8d77d65fbb26a!2zMjfCsDQ0JzU2LjEiTiA4NcKwMTknMTQuMiJF!5e0!3m2!1sen!2snp!4v1660176612774!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+
+</section>
+
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>Tulku Nursery</h5>
+					<p>Banyatar, Tokha</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>9840309376</h5>
+					<p>Sunday - Saturday, 10 A.M. to 7 P.M.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope-o"></i>
+				<span>
+					<h5>prajwolgc2001@gmail.com</h5>
+					<p>Email us your query</p>
+				</span>
+			</div>
+		</div>
+<div class="contact-col">
+	<form action="">
+		<input type="text" placeholder="Enter your name" required>
+		<input type="email" placeholder="Enter your email address" required>
+		<input type="number" placeholder="Enter your phone number" required>
+		<textarea rows="8" placeholder="Message" required></textarea>
+		<button type="submit" class="hero-btn red-btn">Send Message</button>
+	</form>
+</div>
+</section>
+
+
+
+
+<!-------------Footer-------->
+
+<section class="footer">
+	<h4>HAPPY ADOPTING!</h4>
+	<div class="icons">
+		<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.twitter.com" target="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a> 	
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Prajwol Dhoj G.C.
+</section>
+
+
+
+
+
+<!---------Javascript for Toggle Menu---------->
+<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>	
+	
+<body>
+</html>

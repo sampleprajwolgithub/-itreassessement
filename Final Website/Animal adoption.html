@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>Animal adoption</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/d812ffa7e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="Adopt Now.html">ADOPT NOW</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Adopt Now</h1>
+</section>
+
+<!-----------Course----------->
+
+<section class="course">
+	<h1>SIMPLE STEPS TO START YOUR ADOPTION</h1>
+	
+	<div class="row">
+		<div class="course-col">
+			<h3>Search <i class="fa fa-search"></i></h3>
+			<p>With some easy searching you can find any animal to be adopted for some shelter and some love. </p>
+		</div>
+		<div class="course-col">
+			<h3>Info <i class="fa fa-info-circle"></i></h3>
+			<p>You can learn about more about them after searching the pet of your own choosing for you to adopt.</p>
+		</div>
+		<div class="course-col">
+			<h3>Adopt <i class="fa fa-heart"></i></h3>
+			<p>After those steps are completed, you can take your animal and help them adjust to your family.</p>
+		</div>
+</section>
+
+<section class="campus">
+	<h1>Browse Pets for adoption</h1>
+	
+	<div class="row">
+		<div class="campus-col">
+			<a href="./dog.html" target="dog.html"><img src="img/dog3.jpg" alt="dog3 image">
+			<div class="layer">
+				<h3>DOGS</h3>
+			</div></a>
+		</div>
+		<div class="campus-col">
+			<a href="cat.html" target="cat.html"><img src="img/cat4.jpg" alt="cat4 image">
+			<div class="layer">
+				<h3>CATS</h3>
+			</div></a>
+		</div>
+		<div class="campus-col">
+			<a href="rabbit.html"><img src="img/rabbit.jpg" alt="rabbit image">
+			<div class="layer">
+				<h3>RABBITS</h3>
+			</div></a>
+		</div>
+		<div class="campus-col">
+			<a href="bird.html" target="bird.html"><img src="img/bird.jpg" alt="bird image">
+			<div class="layer">
+				<h3>BIRDS</h3>
+			</div></a>
+		</div>
+		<div class="campus-col">
+			<a href="fish.html"><img src="img/fish2.jpg" alt="fish2 image">
+			<div class="layer">
+				<h3>FISHES</h3>
+			</div></a>
+		</div>
+		<div class="campus-col">
+			<a href="horse.html"><img src="img/horse.jpg" alt="horse image">
+			<div class="layer">
+				<h3>HORSES</h3>
+			</div></a>
+		</div>
+		
+	</div>
+	
+</section>
+
+<section class="testimonials">
+	<h1>Our Customers Reviews</h1>
+	
+	<div class="row">
+		<div class="testimonials-col">
+			<img src="img/dajeel.jpg" alt="dajeel image">
+			<div class="testimonials-cat">
+				<p>Since i was little child i always wanted a cat but my parent's weren't supoortive of it. Now I'm old enough I can get my own cat but I didn't know where to get one. Thanks to Pet Adoption now i have my fluffy boy!</p><br>
+				<img src="img/nini.jpg" alt="nini image">
+				<h3>Dajeel Dulal</i></h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<img src="img/bijay.jpg" alt="bijay image">
+			<div class="testimonials-cat">
+				<p>Looking at their eyes was like love at first sight;  how it captivated my whole  being by their charms and keeping them as my child really does my heart go “Doki Dokiii” till now.</p><br>
+				<img src="img/fish1.jpg" alt="fish1 image">
+				<h3>Bijay Reshmi Magar</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!-------------Footer-------->
+
+<section class="footer">
+	<h4>HAPPY ADOPTING!</h4>
+	<div class="icons">
+		<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Prajwol Dhoj G.C.
+</section>
+
+
+
+
+
+<!---------Javascript for Toggle Menu---------->
+<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>	
+	
+<body>
+</html>

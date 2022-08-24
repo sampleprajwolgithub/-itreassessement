@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>About Us</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/d812ffa7e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="Adopt Now.html">ADOPT NOW</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>About Us</h1>
+</section>
+
+<!-----------about us content----------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Pet Adoption</h1>
+			<p>Pet Adoption helps you to find your fluffy furry friend to give them shelter and love, where you will never be lonely.</p>
+			<p>Pet Adoption doesn’t just mean simply  adopting a dog or a cat but to have a friend, a company at your side.
+				Taking care and loving it and watch them grow as you grow together with them. Having a unique bond with your pet isn’t just fun but it also helps your mental state.
+				Through Pet Adoption, you can have a great friend and a great company by your side and with their full help, your dream having a loving dog, a cat, or even a small little bird will come true.</p>
+		</div>
+		<div class="about-col">
+			<img src="img/about.jpg" alt="about image">
+		</div>
+	</div>
+</section>
+
+
+<section class="testimonials">
+	<h1>Our Customers Reviews</h1>
+	
+	<div class="row">
+		<div class="testimonials-col">
+			<img src="img/avhee.jpg" alt="avhee image">
+			<div class="testimonials-cat">
+				<p>its been 8 years since we adopted Shinjo, a Japanese spitz and all thanks to pet adoption and their services who fulfilled my wish and now we have a wonderful and cute fluffy buddy who always carry some random stick whenever we take him for a walk.</p><br>
+				<img src="img/cat3.jpg" alt="cat3 image">
+				<h3>Avishek Shah</i></h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>	
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<img src="img/sulav.jpg" alt="sulav image">
+			<div class="testimonials-cat">
+				<p>I was able to adopt my perfect two bunnies thanks to pet adoption. Thank you Pet Adoption for the great experience; I will also refer Pet Adoption to my friends.</p><br>
+				<img src="img/bunny.jpg" alt="bunny image">
+				<h3>Sulav Subedi</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!-------------Footer-------->
+
+<section class="footer">
+	<h4>HAPPY ADOPTING!</h4>
+	<div class="icons">
+		<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Prajwol Dhoj G.C.
+</section>
+
+
+
+
+
+<!---------Javascript for Toggle Menu---------->
+<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>	
+	
+<body>
+</html>
